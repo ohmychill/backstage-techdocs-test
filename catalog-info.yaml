@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "Backstage-TechDocs-Test"
+  description: "Testing Backstage Techdocs"
+  annotations:
+    github.com/project-slug: ohmychill/backstage-techdocs-test
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "backstage"
